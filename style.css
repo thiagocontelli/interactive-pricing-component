@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+}
+
+:root {
+    --soft-cyan: rgb(165, 243, 235);           /*full slider bar*/
+    --strong-cyan: rgb(16, 213, 194);          /*slider bg*/
+    --light-grayish-red: rgb(254, 236, 231);   /*discount bg*/
+    --light-red: rgb(255, 140, 102);           /*discount text*/
+    --pale-blue: rgb(189, 204, 255);           /*cta-text*/
+
+    --white: rgb(255, 255, 255);                /*pricing component bg*/
+    --very-pale-blue: rgb(250, 251, 255);      /*main bg*/
+    --light-grayish-blue: rgb(234, 238, 251);   /*empty slider bar*/
+    --light-grayish-blue-2: rgb(205, 215, 238); /*toggle bg*/
+    --grayish-blue: rgb(133, 143, 173);         /*text*/
+    --dark-desaturated-blue: rgb(41, 51, 86);/*text & cta bg*/
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url(images/bg-pattern.svg);
+    background-repeat: no-repeat;
+    background-color: var(--very-pale-blue);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.introduction {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 100vw;
+    height: 200px;
+
+    background-image: url(images/pattern-circles.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.introduction p {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--grayish-blue);
+}
+
+.introduction h1 {
+    font-weight: 800;
+    color: var(--dark-desaturated-blue);
+}
+
+.container {
+    width: 31.25rem; /*500px*/
+    height: 21.875rem; /*300px*/
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: var(--white);
+
+    border-radius: 10px;
+    box-shadow: 1px 1px 14px -7px rgb(0, 0, 0, 0.2);
+}
+
+.price-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    width: 31.25rem;
+}
+
+.page-views {
+    font-weight: 600;
+    color: var(--grayish-blue);
+}
+
+.price {
+    font-weight: 800;
+    font-size: 2.8rem;
+    color: var(--dark-desaturated-blue);
+}
+
+.price-month {
+    font-weight: 600;
+    color: var(--grayish-blue);
+    
+    display: flex;
+    align-items: center;
+}
