@@ -43,3 +43,5 @@ Users should be able to:
 
 ### What I learned
 
+In this project I improved DOM manipulation, validation, events.
+It was a big step forward in learning JavaScript.
