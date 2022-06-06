@@ -6,6 +6,7 @@
     box-sizing: border-box;
     font-family: 'Manrope', sans-serif;
     /* border: solid 1px red; */
+    user-select: none;
 }
 
 :root {
@@ -124,7 +125,6 @@ main {
 
     margin-bottom: 1rem;
 }
-
 
 .slider::-webkit-slider-thumb {
     -webkit-appearance: none;

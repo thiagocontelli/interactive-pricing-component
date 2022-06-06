@@ -19,10 +19,10 @@
         <section class="container">
             <div class="price-box">
                 <p class="page-views"><span id="page-views" class="page-views">1 0 0 K</span> PAGEVIEWS</p>
-                <p class="price-month"><span id="price" class="price">$16.00</span>/ month</p>
+                <p class="price-month"><span class="price">$</span><span id="price" class="price">16.00</span>/ month</p>
             </div>
 
-            <input type="range" name="slider" id="slider" class="slider" min="1" max="5" value="3">
+            <input type="range" name="slider" id="slider" class="slider" min="1" max="5" value="3" oninput="updatePricePageViews()">
 
             <div class="bill-box">
                 <p>Monthly Billing</p>
