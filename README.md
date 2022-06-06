@@ -1,26 +1,26 @@
 # Frontend Mentor - Interactive pricing component solution
 
-This is a solution to the [Interactive pricing component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-pricing-component-t0m8PIyY8). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+Essa é a solução para o [desafio Interactive Pricing Component do site Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-pricing-component-t0m8PIyY8). 
 
-## Table of contents
+## Sumário
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
+- [Visão Geral](#visão-geral)
+  - [O Desafio](#o-desafio)
   - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
+  - [Link](#link)
+- [Meu processo](#meu-processo)
+  - [Desenvolvido com](#desenvolvido-com)
+  - [O que eu aprendi](#o-que-eu-aprendi)
 
-## Overview
+## Visão Geral
 
-### The challenge
+### O Desafio
 
-Users should be able to:
+O usuário é capaz de:
 
-- (IN PROCESS) View the optimal layout for the app depending on their device's screen size 
-- See hover states for all interactive elements on the page
-- Use the slider and toggle to see prices for different page view numbers
+- (EM PROCESSO) Ver o layout responsivo em qualquer dispositivo. 
+- Poder interagir com o elementos da página.
+- Usar o slider e o toggle button para ver os diferentes preços e os números de visualizações da página.
 
 ### Screenshot
 
@@ -28,20 +28,19 @@ Users should be able to:
 
 ![](./images/screenshot2.png)
 
-### Links
+### Link
 
-- Live Site URL: https://thiagocontelli.github.io/interactive-pricing-component/
+- [Link para ver o site funcionando](https://thiagocontelli.github.io/interactive-pricing-component/)
 
-## My process
+## Meu processo
 
-### Built with
+### Desenvolvido com:
 
 - HTML5
 - CSS3
   - Flexbox
 - Vanilla JavaScript
 
-### What I learned
+### O que eu aprendi
 
-In this project I improved DOM manipulation, validation, events.
-It was a big step forward in learning JavaScript.
+Esse projeto me ajudou a desenvolver minhas habilidades na manipulação do DOM, validações e eventos, questões que ainda estavam superficiais pra mim. Apesar de ser um projeto simples, é usado diversas funcionalidades que serão úteis em vários projetos que irei desenvolver futuramente.
