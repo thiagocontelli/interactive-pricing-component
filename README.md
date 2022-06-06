@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: (https://thiagocontelli.github.io/interactive-pricing-component/)
+- Live Site URL: https://thiagocontelli.github.io/interactive-pricing-component/
 
 ## My process
 
@@ -38,7 +38,7 @@ Users should be able to:
 
 - HTML5
 - CSS3
-- Flexbox
+  - Flexbox
 - Vanilla JavaScript
 
 ### What I learned
