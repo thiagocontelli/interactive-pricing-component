@@ -86,7 +86,7 @@ main {
     box-shadow: 1px 1px 14px -7px rgb(0, 0, 0, 0.2);
 }
 
-.price-box {
+.tariff-box {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -100,18 +100,22 @@ main {
     color: var(--grayish-blue);
 }
 
+.price-box {
+    display: flex;
+    align-items: center;
+}
+
 .price {
     font-weight: 800;
     font-size: 2.8rem;
     color: var(--dark-desaturated-blue);
 }
 
-.price-month {
+.duration {
     font-weight: 600;
     color: var(--grayish-blue);
     
-    display: flex;
-    align-items: center;
+
 }
 
 .slider {

@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Interactive Pricing Component</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js" defer></script>
+    <script src="app.js" defer></script>
 </head>
 <body>
     <main>
@@ -17,12 +17,15 @@
         </div>
 
         <section class="container">
-            <div class="price-box">
+            <div class="tariff-box">
                 <p class="page-views"><span id="page-views" class="page-views">1 0 0 K</span> PAGEVIEWS</p>
-                <p class="price-month"><span class="price">$</span><span id="price" class="price">16.00</span>/ month</p>
+                <div class="price-box">
+                    <span class="price">$<span id="price" class="price">16</span>.00</span>
+                    <span id="duration" class="duration">/month</span>
+                </div>
             </div>
 
-            <input type="range" name="slider" id="slider" class="slider" min="1" max="5" value="3" oninput="updatePricePageViews()">
+            <input type="range" name="slider" id="slider" class="slider" min="1" max="5" value="3">
 
             <div class="bill-box">
                 <p>Monthly Billing</p>
